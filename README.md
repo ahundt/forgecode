@@ -325,6 +325,7 @@ Some commands change settings for the current session only. Others persist to yo
 
 # View & edit config
 :info                          # Show current session info (model, agent, conversation ID)
+:env                           # Show environment and provider info
 :config                        # Display effective resolved configuration in TOML format
 :config-edit                   # Open config file in $EDITOR (alias: :ce)
 :tools                         # List available tools for the current agent
